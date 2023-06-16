@@ -17,16 +17,19 @@ function App() {
           <div className="description">
             <p>Mawingu</p>
           </div>
-          <div className="bottom">
-            <div className="feels">
-              <p>Feels like 40°C</p>
-            </div>
-            <div className="humidity">
-              <p>Humidity: 80%</p>
-            </div>
-            <div className="wind">
-              <p>Wind: 10km/h</p>
-            </div>
+        </div>
+        <div className="bottom">
+          <div className="feels">
+            <p>40°C</p>
+            <p>Feels like</p>
+          </div>
+          <div className="humidity">
+            <p>80%</p>
+            <p>Humidity</p>
+          </div>
+          <div className="wind">
+            <p>10km/h</p>
+            <p>Wind speed</p>
           </div>
         </div>
       </div>
