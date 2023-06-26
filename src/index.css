@@ -38,7 +38,7 @@ h3 {
 
 .app:before {
   content: '';
-  background: url('./assets/moon.jpg') no-repeat center center/cover;
+  background: url('./assets/rural.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
