@@ -64,16 +64,16 @@ function App() {
 
         <div className="bottom">
           <div className="feels">
-            {data.weather ? <p>{data.main.feels_like}°C</p> : null}
             <p>Feels like</p>
+            {data.weather ? <p>{data.main.feels_like}°C</p> : null}
           </div>
           <div className="humidity">
-            {data.weather ? <p>{data.main.humidity}%</p> : null}
             <p>Humidity</p>
+            {data.weather ? <p>{data.main.humidity}%</p> : null}
           </div>
           <div className="wind">
-            {data.weather ? <p>{data.wind.speed}km/h</p> : null}
             <p>Wind speed</p>
+            {data.weather ? <p>{data.wind.speed}km/h</p> : null}
           </div>
         </div>
       </div>
