@@ -81,7 +81,7 @@ h3 {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  margin-bottom: 15rem;
+  margin-bottom: 12rem;
 }
 .left {
   display: flex;
@@ -117,7 +117,7 @@ left .temp {
 .bottom {
   width: 100%;
   align-items: center;
-  margin-top: 1rem;
+
   display: flex;
   justify-content: space-evenly;
   text-align: center;
